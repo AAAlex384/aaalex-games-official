@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'aaalex-ui';
+    src: url('aaalex-ui.ttf') format('truetype');
+}
+
+:root {
+    --black: #000000;
+    --dark-ourple: #240724;
+    --really-pale-dark-pink: #2b252b;
+    --pale-orange: #c29718;
+    --aaalex-yellow: #fbff00;
+    --pale-yellow: #fafc8c;
+    --purple-guy: #8f18c2;
+    --neon-purple: #f700ff;
+    --plant-green: #18c243;
+    --lime-green: #00ff84;
+    --blue-green: #18c2a3;
+    --miku-blue: #00eaff;
+    --dark-pale-blue: #1f1f25;
+    --grey-with-a-kewl-name: #2e2e2e;
+    --lighter-gay: #979797;
+    --eckeckeck: #ececec;
+    --tiger-orane: #c25618;
+    --average-school-orange: #ffa200;
+    --maroon-not-maroon: #6a120d;
+    --chara-pronounced-char: #c22118;
+    --scratch-ourple: #6600ff;
+    --emo-scratch-ourple: #4500ad;
+    --kms-ourple: #220354;
+    --my-soul-ourple: #100426;
+    --why-should-i-ourple-anymore: #15123d;
+}
+
+html {
+    font-family: 'aaalex-ui', sans-serif;
+    background-color: var(--dark-ourple);
+    color: var(--aaalex-yellow);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    list-style-type: none;
+}
+
+li {
+    padding: 40px;
+}
+
+navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 15%;
+    background-color: var(--really-pale-dark-pink);
+    z-index: 9999999999;
+}
+
+.pageIcon {
+    height: 6em;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    list-style-type: none;
+}
+
+content {
+    position: absolute;
+    top: 15%;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+}
+
+a:link {
+    color: var(--aaalex-yellow);
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--aaalex-yellow);
+    text-decoration: underline;
+}
+
+a:active {
+    color: var(--aaalex-yellow);
+    text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 10%;
+    background-color: var(--really-pale-dark-pink);
+    z-index: 9999999999;
+}
