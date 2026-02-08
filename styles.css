@@ -133,6 +133,39 @@ footer {
     font-size: 1em;
 }
 
+.container{
+    display: flex;
+    align-items: left;
+    gap: 20px;
+    display:flex;
+    flex-direction: column;
+    height: 200px;
+    border: 1px solid --aaalex-yellow;
+    padding: 10px;
+}
+
+.container div {
+    margin-left: 380px;
+    margin-top: -225px;
+}
+
+.container img {
+    max-width: 300px;
+    height: 300px;
+    margin-left: 10px;
+}
+
 p {
     font-family: 'aaalexgames', sans-serif;
+}
+
+span {
+    font-family: 'aaalexgames', sans-serif;
+    font-size: 2.5em;
+}
+
+.maintextread {
+    font-family: 'aaalexgames', sans-serif;
+    font-size: 2em;
+    color: var(--pale-orange);
 }
