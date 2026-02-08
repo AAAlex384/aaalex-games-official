@@ -1,7 +1,9 @@
 @font-face {
     font-family: 'aaalex-ui';
     src: url('fonts/aaalex-ui.ttf') format('truetype');
+}
 
+@font-face {
     font-family: 'aaalexgames';
     src: url('fonts/aaalexgames.ttf') format('truetype');
 }
@@ -79,11 +81,12 @@ navbar {
 content {
     position: absolute;
     top: 15%;
-    left: 0;
-    width: 90vw;
+    left: 50%;
+    width: 80vw;
     height: 75%;
-    overflow-y: auto;
+    overflow-y: visible;
     z-index: 0;
+    transform: translateX(-50%);
 }
 
 a:link {
