@@ -112,3 +112,15 @@ footer {
     background-color: var(--really-pale-dark-pink);
     z-index: 9999999999;
 }
+
+#version {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+#copyright {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
