@@ -89,7 +89,7 @@ a:link {
 }
 
 a:visited {
-    color: pink;
+    color: var(--aaalex-yellow);
     text-decoration: none;
 }
 
