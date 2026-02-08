@@ -116,13 +116,13 @@ footer {
 #version {
     position: fixed;
     bottom: 0px;
-    left: 0px;
-    size: 1em;
+    left: 10px;
+    font-size: 1em;
 }
 
 #copyright {
     position: fixed;
     bottom: 0px;
-    right: 0px;
-    size: 1em;
+    right: 10px;
+    font-size: 1em;
 }
