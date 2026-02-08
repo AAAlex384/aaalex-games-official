@@ -1,6 +1,9 @@
 @font-face {
     font-family: 'aaalex-ui';
-    src: url('aaalex-ui.ttf') format('truetype');
+    src: url('fonts/aaalex-ui.ttf') format('truetype');
+
+    font-family: 'aaalexgames';
+    src: url('fonts/aaalexgames.ttf') format('truetype');
 }
 
 :root {
@@ -43,7 +46,7 @@ ul {
     margin: 0;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 40%;
     transform: translate(-50%, -50%);
     list-style-type: none;
 }
@@ -77,7 +80,7 @@ content {
     position: absolute;
     top: 15%;
     left: 0;
-    width: 100vw;
+    width: 90vw;
     height: 75%;
     overflow-y: auto;
     z-index: 0;
