@@ -193,9 +193,32 @@ span {
 }
 
 h1{
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 .footerText {
     font-size: 1.5vw;
+}
+
+html {
+    font-family: 'aaalex-ui', sans-serif;
+    background-color: var(--dark-ourple);
+    color: var(--aaalex-yellow);
+    font-size: clamp(12px, 0.8vw + 2px, 15px); 
+}
+
+.maintextread {
+    font-family: 'aaalexgames', sans-serif;
+    font-size: clamp(0.9rem, 1.8vw, 1.4rem);
+    color: var(--pale-orange);
+}
+
+.footerText, #version, #copyright {
+    font-size: clamp(10px, 0.9vw, 13px);
+    opacity: 0.9;
+}
+
+li {
+    padding: 1vw 2vw;
+    font-size: clamp(0.85rem, 1.2vw, 1.05rem);
 }
