@@ -7,6 +7,6 @@ function updateLogo(logoSrc) {
 }
 
 const homeIcon = document.querySelector('.pageIcon');
-const favicon = document.querySelector('#favicon');
+const favicon = document.querySelector('link[rel="icon"]');
 
 updateLogo('logos/LogoDefault.png');
