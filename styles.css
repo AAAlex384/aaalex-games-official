@@ -54,7 +54,8 @@ ul {
 }
 
 li {
-    padding: 40px;
+    padding: 2.5vw;
+    
 }
 
 navbar {
@@ -62,7 +63,8 @@ navbar {
     top: 0px;
     left: 0px;
     width: 100vw;
-    height: 15%;
+    height: 17vh;
+    max-height: 130px;
     background-color: var(--really-pale-dark-pink);
     z-index: 9999999999;
 }
@@ -114,7 +116,8 @@ footer {
     bottom: 0px;
     left: 0px;
     width: 100vw;
-    height: 6.5%;
+    height: 2.1vh;
+    min-height: 65px;
     background-color: var(--really-pale-dark-pink);
     z-index: 9999999999;
 }
@@ -123,14 +126,12 @@ footer {
     position: fixed;
     bottom: 0px;
     left: 10px;
-    font-size: 1em;
 }
 
 #copyright {
     position: fixed;
     bottom: 0px;
-    right: 10px;
-    font-size: 1em;
+    right: 10px
 }
 
 .container{
@@ -140,7 +141,6 @@ footer {
     display:flex;
     flex-direction: column;
     height: 200px;
-    border: 1px solid --aaalex-yellow;
     padding: 10px;
 }
 
@@ -155,6 +155,28 @@ footer {
     margin-left: 10px;
 }
 
+.container-right{
+    display: flex;
+    align-items: right;
+    gap: 20px;
+    flex-direction: column;
+    height: 200px;
+    padding: 10px;
+}
+
+.container-right div {
+    margin-right: 380px;
+    margin-top: -225px;
+}
+
+.container-right img {
+    position: absolute;
+    right: 20px;
+    max-width: 300px;
+    height: 300px;
+    margin-right: 10px;
+} 
+
 p {
     font-family: 'aaalexgames', sans-serif;
 }
@@ -166,6 +188,14 @@ span {
 
 .maintextread {
     font-family: 'aaalexgames', sans-serif;
-    font-size: 2em;
+    font-size: 2.5vw;
     color: var(--pale-orange);
+}
+
+h1{
+    font-size: 3vw;
+}
+
+.footerText {
+    font-size: 1.5vw;
 }
