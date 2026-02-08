@@ -83,7 +83,7 @@ content {
     top: 15%;
     left: 50%;
     width: 80vw;
-    height: 75%;
+    height: 200%;
     overflow-y: visible;
     z-index: 0;
     transform: translateX(-50%);
