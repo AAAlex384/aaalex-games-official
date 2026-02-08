@@ -117,10 +117,12 @@ footer {
     position: fixed;
     bottom: 0px;
     left: 0px;
+    size: 1em;
 }
 
 #copyright {
     position: fixed;
     bottom: 0px;
     right: 0px;
+    size: 1em;
 }
