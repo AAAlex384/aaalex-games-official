@@ -16,4 +16,4 @@ const favicon = document.querySelector('link[rel="icon"]');
 
 updateLogo('logos/LogoDefault.png');
 
-updateVer('Version 2026.02.10.001');
+updateVer('Version 2026.02.14.002');
