@@ -32,6 +32,6 @@ function update() {
 }
 
 const pageIcon = "LogoShiny";
-const pageVer = 'Version 2026.03.3.001';
+const pageVer = 'Version 2026.04.21.001';
 
 window.addEventListener('load', update);
